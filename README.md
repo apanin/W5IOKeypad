@@ -1,35 +1,13 @@
 # W5IOKeypad
 
-A Particle library for W5IOKeypad
+A Particle library for [https://www.waveshare.com/wiki/5_IO_Keypad](W5IOKeypad)
+
 
 ## Welcome to your library!
 
-To get started, modify the sources in [src](src). Rename the example folder inside [examples](examples) to a more meaningful name and add additional examples in separate folders.
 
-To compile your example you can use `particle compile examples/usage` command in [Particle CLI](https://docs.particle.io/guide/tools-and-features/cli#update-your-device-remotely) or use our [Desktop IDE](https://docs.particle.io/guide/tools-and-features/dev/#compiling-code).
-
-Libraries can also depend on other libraries. To add a dependency use [`particle library add`](https://docs.particle.io/guide/tools-and-features/cli#adding-a-library) or [library management](https://docs.particle.io/guide/tools-and-features/dev/#managing-libraries) in Desktop IDE.
-
-After the library is done you can upload it with `particle library upload` or `Upload` command in the IDE. This will create a private (only visible by you) library that you can use in other projects. If you wish to make your library public, use `particle library publish` or `Publish` command.
-
-_TODO: update this README_
 
 ## Usage
-
-Connect XYZ hardware, add the W5IOKeypad library to your project and follow this simple example:
-
-```
-#include "W5IOKeypad.h"
-W5IOKeypad w5IOKeypad;
-
-void setup() {
-  w5IOKeypad.begin();
-}
-
-void loop() {
-  w5IOKeypad.process();
-}
-```
 
 See the [examples](examples) folder for more details.
 
@@ -54,8 +32,3 @@ After your changes are done you can upload them with `particle library upload` o
 At this point, you can create a [GitHub pull request](https://help.github.com/articles/about-pull-requests/) with your changes to the original library. 
 
 If you wish to make your library public, use `particle library publish` or `Publish` command.
-
-## LICENSE
-Copyright 2020 Nina Parenteau
-
-Licensed under the <insert your choice of license here> license
