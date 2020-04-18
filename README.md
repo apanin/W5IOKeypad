@@ -1,6 +1,6 @@
 # W5IOKeypad
 
-A Particle library for [https://www.waveshare.com/wiki/5_IO_Keypad](W5IOKeypad)
+A Particle library for [W5IOKeypad](https://www.waveshare.com/wiki/5_IO_Keypad)(W5IOKeypad)
 
 
 ## Welcome to your library!
